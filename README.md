@@ -1,4 +1,6 @@
 ![1000139073](https://github.com/user-attachments/assets/b662c226-f336-4dd1-980d-cfe52fb158f1)
+
+
 🤖 Makita Base:
 
 Olá! Sou Raphael (@rafasw7) e criei o Makita Base – um bot de WhatsApp em Node.js pensado para quem quer criar chatbots de forma simples, mas com grandes possibilidades de expansão. Usei uma versão modificada da Baileys que traz recursos aprimorados e desbloqueados, deixando o bot mais completo.
