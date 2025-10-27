@@ -1,54 +1,41 @@
-<div align="center"><img src="https://github.com/user-attachments/assets/b662c226-f336-4dd1-980d-cfe52fb158f1" width="80" style="border-radius: 10px;"> Makita Base</div>
+# Makita Base
 
-<div align="center">
+![Makita Logo](https://github.com/user-attachments/assets/b662c226-f336-4dd1-980d-cfe52fb158f1)
 
-https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white
-https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white
-https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
-https://img.shields.io/badge/Baileys-Enhanced-ff69b4?style=for-the-badge
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)]()
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)]()
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)]()
+[![Baileys Enhanced](https://img.shields.io/badge/Baileys-Enhanced-ff69b4?style=for-the-badge)]()
 
-Um bot de WhatsApp poderoso e expansível criado com Node.js
+Um bot de WhatsApp poderoso e expansível criado com Node.js.
 
 ✨ Crie chatbots incríveis de forma simples! ✨
 
-</div>
+---
+
+## Sobre o projeto
+
+Olá! Sou Raphael (@rafasw7) e criei a Makita Base — um bot de WhatsApp em Node.js pensado para quem quer desenvolver chatbots de forma simples e com grande potencial de expansão.
+
+Utilizo uma versão modificada da Baileys com recursos aprimorados para deixar o bot mais completo e poderoso.
 
 ---
 
-🌟 Sobre o Projeto
+## Recursos
 
-<div align="center">
-
-🎉 Olá! Sou Raphael (@rafasw7) e criei o Makita Base – um bot de WhatsApp em Node.js pensado para quem quer criar chatbots de forma simples, mas com grandes possibilidades de expansão!
-
-🚀 Usei uma versão modificada da Baileys que traz recursos aprimorados e desbloqueados, deixando o bot mais completo e poderoso!
-
-</div>
-
----
-
-⚡ Recursos Incríveis
-
-<div align="center">
-
-🎯 Recurso ✨ Descrição
-📱 Mídias Completas Envio de mensagens, imagens, áudios, vídeos e documentos
-🔘 Sistema Interativo Botões e menus que respondem às escolhas do usuário
-🌀 Carrossel Avançado Menus com várias páginas para melhor organização
-⚡ Monitoramento em Tempo Real Ping com tempo de resposta e tempo de atividade
-💬 Estrutura Expansível Adicione novos comandos facilmente
-🧠 Fácil Personalização Código limpo para customizações ilimitadas
-🔒 Conexão Persistente A sessão se mantém automaticamente
-
-</div>
+- Mídias completas: envio de mensagens, imagens, áudios, vídeos e documentos
+- Sistema interativo: botões e menus que respondem às escolhas do usuário
+- Carrossel avançado: menus com várias páginas para melhor organização
+- Monitoramento em tempo real: ping com tempo de resposta e tempo de atividade
+- Estrutura expansível: adicione novos comandos facilmente
+- Fácil personalização: código limpo para customizações ilimitadas
+- Conexão persistente: sessão mantida automaticamente
 
 ---
 
-🛠 Configuração Rápida
+## Configuração rápida
 
-<div align="center">
-
-⚙️ Arquivo: configurar/dados.json
+Arquivo: `configurar/dados.json`
 
 ```json
 {
@@ -57,190 +44,99 @@ Um bot de WhatsApp poderoso e expansível criado com Node.js
 }
 ```
 
-🔧 Configuração 📝 Descrição
-session Local onde a sessão do WhatsApp será guardada
-prefixo Define como o bot reconhece comandos (personalizável)
-
-</div>
+- `session`: local onde a sessão do WhatsApp será guardada  
+- `prefixo`: define como o bot reconhece comandos (personalizável)
 
 ---
 
-📥 Instalação Passo a Passo
+## Instalação
 
-<div align="center">
+Pré-requisitos:
 
-📋 Pré-requisitos:
+- Node.js instalado
+- Terminal (Termux, CMD, PowerShell, etc.)
 
-· 🟢 Node.js instalado
-· 💻 Terminal (Termux, CMD, PowerShell, etc)
-
-</div>
-
-🚀 Passos de Instalação:
+Passos:
 
 ```bash
-# 1️⃣ Entre na pasta do bot
+# 1) Entre na pasta do bot
 cd makita-base
 
-# 2️⃣ Instale as dependências
+# 2) Instale as dependências
 npm install
 
-# 💡 Para Termux use:
+# Se estiver no Termux:
 npm install --no-bin-links
 
-# 3️⃣ Inicie o bot
+# 3) Inicie o bot
 node conectar.js
 ```
 
 ---
 
-📲 Conexão com WhatsApp
+## Conexão com o WhatsApp
 
-<div align="center">
-
-🎯 Siga estes passos para conectar:
-
-</div>
-
-1. ▶️ Execute: node conectar.js
-2. 📱 Digite seu número completo (ex: 5511999999999)
-3. 🔢 Pegue o código que aparecer
-4. 📲 No WhatsApp:
-   · Vá em Configurações → Dispositivos conectados → Conectar um dispositivo
-   · 📋 Cole o código
-5. ✅ O bot reinicia sozinho e já pode ser usado!
+1. Execute: `node conectar.js`  
+2. Digite seu número completo (ex: 5511999999999)  
+3. Copie o código que aparecer no terminal  
+4. No WhatsApp: Configurações → Dispositivos conectados → Conectar um dispositivo  
+5. Cole o código e conecte — o bot deverá reiniciar automaticamente e ficará pronto para uso
 
 ---
 
-🎯 Comandos Principais
+## Comandos principais
 
-<div align="center">
-
-Comando Ação Emoji
-.ping Mostra velocidade e tempo online ⚡
-.menu Abre menu interativo com carrossel 🌀
-
-</div>
+- `.ping` — mostra velocidade e tempo online ⚡  
+- `.menu` — abre menu interativo com carrossel 🌀
 
 ---
 
-🗂 Estrutura do Projeto
+## Estrutura do projeto
 
-<div align="center">
-
-```bash
+```
 makita-base/
-├── 📁 configurar/
-│   └── 📄 dados.json
-├── 📁 funcoes/
-│   └── 📄 mensagens.js
-├── 📄 makita.js
-├── 📄 conectar.js
-└── 📄 package.json
+├── configurar/
+│   └── dados.json
+├── funcoes/
+│   └── mensagens.js
+├── makita.js
+├── conectar.js
+└── package.json
 ```
 
-Arquivo Função
-funcoes/mensagens.js 🎨 Funções de envio de mensagens
-makita.js 🤖 Comandos do bot
-conectar.js 🔌 Gerencia a conexão com WhatsApp
-
-</div>
+- `funcoes/mensagens.js`: funções de envio de mensagens  
+- `makita.js`: comandos do bot  
+- `conectar.js`: gerenciamento da conexão com o WhatsApp
 
 ---
 
-📞 Contato & Suporte
+## Contato & suporte
 
-<div align="center">
+- Nome: Raphael  
+- Instagram: @rafasw7  
+- WhatsApp: +55 62 8205-3713
 
-Plataforma Contato
-👤 Nome Raphael
-📸 Instagram @rafasw7
-💬 WhatsApp +55 62 8205-3713
-
-🎉 Adoro ver o que vocês criam com minha base!
-
-</div>
+Adoro ver o que vocês criam com a base — marque-me quando publicar algo!
 
 ---
 
-⚠️ Avisos Importantes
+## Avisos importantes
 
-<div align="center">
-
-⚠️ Aviso 🛡️ Recomendação
-🔄 Node.js Mantenha sempre atualizado
-🔐 Sessão Não compartilhe os arquivos – são pessoais
-📜 Termos Use seguindo os Termos do WhatsApp
-🎓 Propósito Feita para aprendizado e criação de bots
-
-</div>
+- Mantenha o Node.js sempre atualizado  
+- Não compartilhe os arquivos de sessão — são pessoais  
+- Use o bot respeitando os termos do WhatsApp  
+- Projeto destinado a aprendizado e desenvolvimento de bots
 
 ---
 
-✨ Mensagem Final
+## Agradecimentos
 
-<div align="center">
+Criei esta base com muito carinho para a comunidade. Espero que aproveitem e construam coisas incríveis!
 
-🌟 Criei esta base com muito carinho para nossa comunidade!
-🚀 Espero que vocês curtam e construam coisas incríveis!
+— Raphael (@rafasw7)
 
----
+Se gostou, não esqueça de dar uma estrela no repositório!
 
-— 🎩 Raphael (@rafasw7)
-
-<img src="https://github.com/user-attachments/assets/b662c226-f336-4dd1-980d-cfe52fb158f1" width="100" style="border-radius: 15px; margin-top: 20px;">
-
-</div>
-
----
-
-<div align="center">
-
-⭐ Não esqueça de dar uma estrela no repositório!
-
-https://user-images.githubusercontent.com/5530109/151700966-0da42c3c-3e4c-4b5c-8e6c-5e5e5e5e5e5e.gif
-
-</div>
-
-<style>
-  .markdown-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  .markdown-body h1, .markdown-body h2, .markdown-body h3 {
-    color: #2E86AB;
-    border-bottom: 2px solid #F9C74F;
-    padding-bottom: 10px;
-  }
-  
-  .markdown-body table {
-    border-collapse: collapse;
-    width: 100%;
-    margin: 20px 0;
-  }
-  
-  .markdown-body table, .markdown-body th, .markdown-body td {
-    border: 1px solid #ddd;
-  }
-  
-  .markdown-body th, .markdown-body td {
-    padding: 12px;
-    text-align: left;
-  }
-  
-  .markdown-body th {
-    background-color: #2E86AB;
-    color: white;
-  }
-  
-  .markdown-body tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-  
-  .markdown-body code {
-    background-color: #f4f4f4;
-    padding: 2px 4px;
-    border-radius: 4px;
-    font-family: 'Courier New', monospace;
-  }
-</style>
+<p align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTZjMDliOTUyNmdnbTZybGh1M2NiNXlyczF5ZTR2eDhlaG1lMHVqbG5zem1mODdlZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gDyCnwdmwgR36UAq8y/giphy.gif" alt="Makita em obra - animado" width="420" style="border-radius: 12px;">
+</p>
