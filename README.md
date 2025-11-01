@@ -7,6 +7,9 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)]()
 [![Baileys Enhanced](https://img.shields.io/badge/Baileys-Enhanced-ff69b4?style=for-the-badge)]()
 
+# Makita Bot - Versões
+- [Versão 1.0 (primeira)](https://github.com/rafasw7/Makita-Whatsapp/tree/main)
+- [Versão 1.2 (atualização)](https://github.com/rafasw7/Makita-Whatsapp/tree/update-1.2)
 Um bot de WhatsApp poderoso e expansível criado com Node.js.
 
 ✨ Crie chatbots incríveis de forma simples! ✨
