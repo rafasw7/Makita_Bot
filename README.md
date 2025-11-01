@@ -7,59 +7,43 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)]()
 [![Baileys Enhanced](https://img.shields.io/badge/Baileys-Enhanced-ff69b4?style=for-the-badge)]()
 
-# Makita Bot - Versões
+---
+
+## 📦 Versões
+
 - [Versão 1.0 (primeira)](https://github.com/rafasw7/Makita-Whatsapp/tree/main)
 - [Versão 1.2 (atualização)](https://github.com/rafasw7/Makita-Whatsapp/tree/update-1.2)
-Um bot de WhatsApp poderoso e expansível criado com Node.js.
-
-✨ Crie chatbots incríveis de forma simples! ✨
 
 ---
 
-## Sobre o projeto
+## ✨ Sobre o projeto
 
-Olá! Sou Raphael (@rafasw7) e criei a Makita Base — um bot de WhatsApp em Node.js pensado para quem quer desenvolver chatbots de forma simples e com grande potencial de expansão.
+Olá! Sou Raphael (@rafasw7) e criei a Makita Base — um bot de WhatsApp em Node.js pensado para quem quer desenvolver chatbots de forma simples, expansível e poderosa.
 
-Utilizo uma versão modificada da Baileys com recursos aprimorados para deixar o bot mais completo e poderoso.
-
----
-
-## Recursos
-
-- Mídias completas: envio de mensagens, imagens, áudios, vídeos e documentos
-- Sistema interativo: botões e menus que respondem às escolhas do usuário
-- Carrossel avançado: menus com várias páginas para melhor organização
-- Monitoramento em tempo real: ping com tempo de resposta e tempo de atividade
-- Estrutura expansível: adicione novos comandos facilmente
-- Fácil personalização: código limpo para customizações ilimitadas
-- Conexão persistente: sessão mantida automaticamente
+Utiliza uma versão modificada da Baileys, trazendo recursos aprimorados para deixar o bot mais completo.
 
 ---
 
-## Configuração rápida
+## 🚀 Recursos
 
-Arquivo: `configurar/dados.json`
-
-```json
-{
-  "session": "sessao",
-  "prefixo": "."
-}
-```
-
-- `session`: local onde a sessão do WhatsApp será guardada  
-- `prefixo`: define como o bot reconhece comandos (personalizável)
+- **Mídias completas:** mensagens, imagens, áudios, vídeos e documentos
+- **Sistema interativo:** botões e menus dinâmicos
+- **Carrossel avançado:** menus com múltiplas páginas
+- **Monitoramento em tempo real:** ping e uptime
+- **Estrutura expansível:** adição fácil de comandos
+- **Personalização:** código limpo e aberto para ajustes
+- **Conexão persistente:** sessão automática
 
 ---
 
-## Instalação
+## ⚡ Instalação rápida
 
-Pré-requisitos:
+### Pré-requisitos
 
 - Node.js instalado
-- Terminal (Termux, CMD, PowerShell, etc.)
+- Terminal (Termux, CMD, PowerShell...)
 
-Passos:
+### Passos
 
 ```bash
 # 1) Entre na pasta do bot
@@ -77,24 +61,40 @@ node conectar.js
 
 ---
 
-## Conexão com o WhatsApp
+## 🔧 Configuração
+
+Arquivo: `configurar/dados.json`
+
+```json
+{
+  "session": "sessao",
+  "prefixo": "."
+}
+```
+
+- `session`: local onde a sessão do WhatsApp será guardada  
+- `prefixo`: define como o bot reconhece comandos (personalizável)
+
+---
+
+## 📱 Conectando ao WhatsApp
 
 1. Execute: `node conectar.js`  
 2. Digite seu número completo (ex: 5511999999999)  
 3. Copie o código que aparecer no terminal  
 4. No WhatsApp: Configurações → Dispositivos conectados → Conectar um dispositivo  
-5. Cole o código e conecte — o bot deverá reiniciar automaticamente e ficará pronto para uso
+5. Cole o código e conecte — o bot reiniciará automaticamente e ficará pronto para uso
 
 ---
 
-## Comandos principais
+## 📝 Comandos principais
 
 - `.ping` — mostra velocidade e tempo online ⚡  
 - `.menu` — abre menu interativo com carrossel 🌀
 
 ---
 
-## Estrutura do projeto
+## 📂 Estrutura do projeto
 
 ```
 makita-base/
@@ -107,23 +107,23 @@ makita-base/
 └── package.json
 ```
 
-- `funcoes/mensagens.js`: funções de envio de mensagens  
-- `makita.js`: comandos do bot  
-- `conectar.js`: gerenciamento da conexão com o WhatsApp
+- **funcoes/mensagens.js**: funções de envio de mensagens  
+- **makita.js**: comandos do bot  
+- **conectar.js**: gerenciamento da conexão com o WhatsApp
 
 ---
 
-## Contato & suporte
+## 🤝 Contato & Suporte
 
-- Nome: Raphael  
-- Instagram: @rafasw7  
-- WhatsApp: +55 62 8205-3713
+- **Nome:** Raphael  
+- **Instagram:** [@rafasw7](https://instagram.com/rafasw7)  
+- **WhatsApp:** +55 62 8205-3713
 
 Adoro ver o que vocês criam com a base — marque-me quando publicar algo!
 
 ---
 
-## Avisos importantes
+## ⚠️ Avisos importantes
 
 - Mantenha o Node.js sempre atualizado  
 - Não compartilhe os arquivos de sessão — são pessoais  
@@ -132,14 +132,8 @@ Adoro ver o que vocês criam com a base — marque-me quando publicar algo!
 
 ---
 
-## Agradecimentos
+## 💙 Agradecimentos
 
-Criei esta base com muito carinho para a comunidade. Espero que aproveitem e construam coisas incríveis!
+Criei esta base com carinho para a comunidade. Aproveite, construa coisas incríveis e não esqueça de dar uma estrela no repositório!
 
 — Raphael (@rafasw7)
-
-Se gostou, não esqueça de dar uma estrela no repositório!
-
-<p align="center">
-  <img src="https://media0.giphy.com/media/v1.Y2lkPTZjMDliOTUyNmdnbTZybGh1M2NiNXlyczF5ZTR2eDhlaG1lMHVqbG5zem1mODdlZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gDyCnwdmwgR36UAq8y/giphy.gif" alt="Makita em obra - animado" width="420" style="border-radius: 12px;">
-</p>
