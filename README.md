@@ -9,13 +9,6 @@
 
 ---
 
-## 📦 Versões
-
-- [Versão 1.0 (primeira)](https://github.com/rafasw7/Makita-Whatsapp/tree/main)
-- [Versão 1.2 (atualização)](https://github.com/rafasw7/Makita-Whatsapp/tree/update-1.2)
-
----
-
 ## ✨ Sobre o projeto
 
 Olá! Sou Raphael (@rafasw7) e criei a Makita Base — um bot de WhatsApp em Node.js pensado para quem quer desenvolver chatbots de forma simples, expansível e poderosa.
